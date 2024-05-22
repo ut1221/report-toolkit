@@ -1,7 +1,10 @@
 # 报表工具
 一个针对于大量重复表头的报表的java工具包，可多端使用，可动态生成报表的json头与sql字段和Java实体类，支持多级嵌套，免除报表开发人员手动维护报表字段，减少开发人员开发时间。
+
 ## 使用
-直接终端运行 ./app-macos 或 ./app-linux 或 ./app.exe 即可
++ 下载gen_report.zip文件[下载地址](https://github.com/ut1221/report-toolkit/releases)
+
++ 直接终端运行 ./app-macos 或 ./app-linux 或 ./app.exe 即可
 所生成文件在当前路径gen目录下
 ## 配置示例
 ```yaml
