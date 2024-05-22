@@ -1,0 +1,28 @@
+header:
+  name: "小红,小黑,小白,小绿"
+  header:
+    name: "语文,数学,英语,历史,物理"
+    header:
+      name: "早上,下午,晚上"
+
+entity:
+  packageName: "com.example.entity"
+  className: "Entity"
+
+json:
+  name: "gen"
+
+sql:
+  tableName: "sys_user"
+  # condition为一条或者顶级header的name条数
+  # condition为select的过滤条件
+  condition:
+    - "if(b.flag != 0, a.data, 0)"
+    - "if(c.flag != 0, a.data, 0)"
+    - "if(d.flag != 0, a.data, 0)"
+    - "if(e.flag != 0, a.data, 0)"
+
+# 百度翻译api配置
+baiduTranslate:
+  appId: "20221112001449132"
+  secure: "f1IuAdaiFtZS0gOfNaed"
